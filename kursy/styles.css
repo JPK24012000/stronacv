@@ -1,0 +1,448 @@
+
+/*Glowne*/
+#mercury{
+  width: 24vw;
+
+}
+
+#venus{
+  width: 60vw;
+}
+
+#earth{
+  width: 63vw;
+}
+
+#mars{
+  width: 34vw;
+}
+
+#jupiter{
+  width: 715vw;
+
+}
+
+#saturn{
+  width: 602vw;
+}
+
+#uranus{
+  width: 255vw;
+}
+
+#neptune{
+  width: 247vw;
+}
+
+
+#stars{
+  position: absolute;
+  top:-30000em;
+  left: -70000em;
+  width: 120000em;
+}
+#andromeda{
+  width: 100000em;
+}
+
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: black;
+
+}
+
+
+element.style {
+    height: 20000em;
+}
+
+
+h1, h2, h4, h5, h6 {
+font-family: 'Permanent Marker', cursive;
+}
+h3{
+}
+p {
+  color: #8f8f8f;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+font-family: 'Orbitron', sans-serif;
+}
+
+.welcome{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-collapse{
+  position: absolute;
+  right: 0%;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #fff;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*Navbar*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.colored-section-navbar {
+  background-image: url("../images/clear.png");
+
+
+
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.marquee-navbar {
+  transform: rotate(130deg);
+  position: absolute;
+  top: 25%;
+}
+.nav-link {
+font-family: 'Bungee', cursive;
+  font-size: 1.2rem;
+color: #fff;
+opacity: 0.7;
+
+}
+
+.nav-link:hover {
+font-size: 1.18rem;
+color: white;
+opacity: 0.4;
+}
+.navbar-bottomheading {
+  font-size: 1rem;
+}
+.navbar-row {
+  padding-bottom: 7%;
+}
+
+.navbar-brand{
+font-family: 'Permanent Marker', cursive;
+color: white;
+font-size: 2.5rem;
+font-weight: bold;
+opacity: 0.7;
+}
+
+.navbar-brand:hover{
+opacity: 0.4;
+color: white;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(300deg);
+  position: absolute;
+  margin-left: 20%;
+}
+
+.footer-copyright {
+  font-family:sans-serif;
+}
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 0%;
+}
+
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: rgb(1, 157, 126);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(7, 207, 167);
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-image: url("../images/space2.jpg");
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+
+/* Footer*/
+
+.footer-copyright{
+  color: #fff;
+}
+.social-icon {
+  margin: 20px 10px;
+  color: rgb(1, 157, 126);
+}
+.social-icon:hover {
+  margin: 20px 10px;
+  color: rgb(7, 207, 167);
+}
+
+
+
+
+
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+.hide-for-landscape, .show-for-portrait {
+  display: none !important
+}
+
+.float-left {
+  float: left !important
+}
+
+.float-right {
+  float: right !important
+}
+
+.float-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+*, :after, :before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary, video {
+  display: block
+}
+
+.mb-active mb-active-0 {
+  height: 20000em;
+}
+
+.mb-active-0 {
+  font-size: 80%;
+  height: 20000px;
+}
+
+
+.mb-active-0 article:nth-child(1) {
+  transform: translate3d(0em, 60vh, -579em)
+}
+.mb-active-0 article:nth-child(2) {
+  transform: translate3d(-60em, 20vh, -1082em)
+}
+.mb-active-0 article:nth-child(3) {
+  transform: translate3d(-150em, 20vh, -1495em)
+}
+.mb-active-0 article:nth-child(4) {
+  transform: translate3d(118em, 60vh, -2279em)
+}
+.mb-active-0 article:nth-child(5) {
+  transform: translate3d(60em, -600vh, -7784em)
+}
+.mb-active-0 article:nth-child(6) {
+  transform: translate3d(-2000em, -500vh, -14267em)
+}
+.mb-active-0 article:nth-child(7) {
+  transform: translate3d(-60em, 1000vh, -20000em)
+}
+.mb-active-0 article:nth-child(8) {
+  transform: translate3d(500em, -500vh, -25000em)
+}
+.mb-active-0 article:nth-child(9) {
+  transform: translate3d(50em, 30vh, -70000em)
+}
+.mb-active-0 article:nth-child(10) {
+  transform: translate3d(700000em, -500000vh, -2500000em)
+}
+
+
+
+
+.front .l-region--content-header.mb-active.mb-bottom .block--views {
+  bottom: 0;
+  top: inherit;
+  position: absolute
+}
+
+.mb-active {
+  position: relative;
+  width: 100%;
+height: 20000em;
+
+}
+
+.mb-active.mb-gone {
+  visibility: hidden
+}
+
+.mb-active.mb-fixed .view-all-content {
+  position: fixed
+}
+
+.mb-active.mb-fixed .block--views {
+  top: 0;
+  left: 0;
+  position: fixed
+}
+
+.mb-active.mb-bottom .block--views {
+  bottom: 0;
+  top: inherit
+}
+
+.mb-active .view-all-content {
+  perspective: 110em;
+  perspective-origin: center center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw
+}
+
+.mb-active .block__content {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative
+}
+
+.mb-active .block--views {
+  height: 100vh;
+  width: 98vw;
+  top: 0;
+  left: 0;
+  position: absolute
+}
+
+.mb-active .view-content {
+  transform-style: preserve-3d
+}
+
+.mb-active article {
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden
+}
+
+.mb-active article .field__item img {
+  width: 70vw
+}
+
+.l-footer .shop-mb a {
+  font-size: 3vw;
+}

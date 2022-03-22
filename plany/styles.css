@@ -1,0 +1,377 @@
+
+/*Glowne*/
+html, body {
+	background-image: url("../images/space1.jpg");
+}
+
+body {
+
+
+
+	width:100%;
+
+
+
+height: 100%;
+	color:#FFFFFF;
+	text-shadow: -1px -1px 4px rgba(0, 0, 0, .35);
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+}
+
+header
+{
+
+	margin-top:30px;
+	position:absolute;
+	z-index:5;
+	width:420px;
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+
+h1{
+
+	font-size:36px;
+	letter-spacing:-2.5px;
+	margin-left:30px;
+}
+
+h3{
+
+	font-size:16px;
+	letter-spacing:-1.5px;
+	margin-top:5px;
+	margin-left:35px;
+}
+
+#fps
+{
+	margin-top:5px;
+	margin-left:35px;
+}
+
+a
+{
+	color:rgba( 255, 255, 255, .65 );
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:rgba( 255, 255, 255, 1 );
+}
+
+/* hardware accelatator class */
+	.trans3d
+	{
+		-webkit-transform-style: preserve-3d;
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform-style: preserve-3d;
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform-style:preserve-3d;
+		-ms-transform: translate3d(0, 0, 0);
+		transform-style:preserve-3d;
+		transform: translate3d(0, 0, 0);
+
+		/*-webkit-backface-visibility: hidden;
+		-moz-backface-visibility: hidden;
+		-ms-backface-visibility:hidden;
+		backface-visibility:hidden;*/
+	}
+
+	#contentContainer
+	{
+		position:absolute;
+		margin-left:-500px;
+		margin-top:-500px;
+		left:50%;
+		top:650px;
+		width:1000px;
+		height:800px;
+	}
+
+	#carouselContainer
+	{
+		position:absolute;
+		margin-left:-500px;
+		margin-top:-500px;
+		left:50%;
+		top:50%;
+		width:1000px;
+		height:1000px;
+	}
+
+	.carouselItem
+	{
+		width:320px;
+		height:130px;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-160px;
+		margin-top:-90px;
+		visibility:hidden;
+	}
+
+	.carouselItemInner
+	{
+		width:320px;
+		height:130px;
+		position:absolute;
+		background-color:rgba(255, 255, 255, .75);
+		border:10px solid rgba(255, 255, 255, .5);
+		color:aqua;
+		font-size:72px;
+		left:50%;
+		top:50%;
+		margin-left:-160px;
+		margin-top:-90px;
+		text-align:center;
+		padding-top:50px;
+
+	}
+
+h1, h2, h4, h5, h6 {
+font-family: 'Permanent Marker', cursive;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+font-family: 'Orbitron', sans-serif;
+}
+
+.welcome{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-collapse{
+  position: absolute;
+  right: 0%;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #fff;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*Navbar*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.colored-section-navbar {
+  background-image: url("../images/space1.jpg");
+  color: #fff;
+
+}
+.colored-section-carousel {
+  height: 850px;
+
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.marquee-navbar {
+  transform: rotate(130deg);
+  position: absolute;
+  top: 25%;
+}
+.nav-link {
+font-family: 'Bungee', cursive;
+  font-size: 1.2rem;
+color: #fff;
+z-index: 10;
+
+}
+
+.nav-link:hover {
+font-size: 1.18rem;
+color: #fff;
+opacity: 0.2;
+}
+.navbar-bottomheading {
+  font-size: 1rem;
+}
+.navbar-row {
+  padding-bottom: 7%;
+}
+
+.navbar-brand{
+font-family: 'Permanent Marker', cursive;
+color: white;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+	opacity: 0.2;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(300deg);
+  position: absolute;
+  margin-left: 20%;
+}
+
+.footer-copyright {
+  font-family:sans-serif;
+}
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 0%;
+}
+
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: rgb(1, 157, 126);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(7, 207, 167);
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-image: url("../images/space2.jpg");
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+
+/* Footer*/
+
+
+.footer-copyright{
+  color: #fff;
+}
+.social-icon {
+  margin: 20px 10px;
+  color: rgb(1, 157, 126);
+}
+.social-icon:hover {
+  margin: 20px 10px;
+  color: rgb(7, 207, 167);
+}
+
+.colored-section-footer {
+  position: relative;
+  top:10px;
+
+
+}
+
+.colored-section-carousel{
+  height: 650px;
+}
+
+
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+    position: absolute;
+
+  }
+
+  .title-image {
+    position: absolute;
+    transform: rotate(0);
+  }
+}
